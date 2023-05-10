@@ -19,7 +19,7 @@ algorithm_name = StringVar()
 algo_list = ['Bubble Sort', 'Merge Sort','Quick Sort','Insertion Sort']
 
 random_data = []
-timeValue = 0.2
+timeValue = 0.02
 
 def drawData(data, colorArray):
     canvas.delete("all")
